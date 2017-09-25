@@ -1,0 +1,385 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+section{padding-top: 70px;}
+
+#about{min-height: 460px;}
+
+.posts{margin-top: 50px;}
+
+.post__cont h5{margin-top: 20px;}
+
+#offer{
+	min-height: 550px;
+	padding-top: 120px;
+}
+
+.scheme-wrap{font-size: 14px;}
+
+.step:before{
+ left: 145px;
+ width: 183px;
+}
+
+.step:after{left: 120px;}
+
+.descr span{font-size: 18px;}
+
+.tour{
+	width: 180px;
+	margin-right: 10px;
+	padding: 10px;
+	height: 370px;
+}
+
+.tour:hover{
+	transform: scale(1.1);
+}
+
+.tour .price{
+	width: 180px;
+	margin-left: -10px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 76px;
+	font-size: 23px;
+}
+
+.center{margin-bottom: 40px;}
+
+#comments .center{margin-bottom: 70px;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.logo{
+	float: none;
+	margin-right: 0;
+}
+
+.logo img{margin-top: 10px;}
+
+.h-nav{
+	margin: 0;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	text-align: left;
+	background: rgba(0,0,0,.7);
+	z-index: 5;
+}
+
+.h-nav li{
+	float: none;
+	padding: 10px;
+	border-top: 1px solid #949494;
+}
+
+.h-nav a{
+	padding-left: 10px;
+	display: block;
+}
+
+.h-nav a:hover{
+	border-bottom: none;
+	border-left: 2px solid #36aeea;
+}
+
+.mobile-menu{
+	display: block;
+	float: left;
+}
+
+#about {
+    min-height: 375px;
+    padding-top: 30px;
+}
+
+#journal i[class*="ic-"]{
+	top: 80px;
+	left: 80px;
+}
+
+.post__cont{padding: 20px;}
+
+.post__cont h5{
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.post__cont p{font-size: 11px;}
+
+.scheme-item{
+	width: 100%;
+	float: none;
+}
+
+.step{
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+.step:before {
+    top: 82px;
+    left: 80px;
+    width: 70px;
+}
+
+.step:after{
+	top: 110px;
+    left: 55px;
+    height: 140px;
+}
+
+.scheme-item:last-child .step:before{display: block;}
+
+.scheme-item:last-child .step:after{display: none;}
+
+.descr{margin-top: 10px;}
+
+.descr img{
+	float: left;
+	margin-left: 70px;
+	margin-right: 20px;
+}
+
+.descr p{
+	padding-top: 30px;
+	text-align: left;
+}
+
+#partner{padding: 45px 0;}
+
+#partner a:last-child{margin-right: 85px;}
+
+.comment{margin-bottom: 70px;}
+
+.copyright{margin-top: 10px;}
+
+.phone{
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+header{background: url(../img/header_bg_mobile.jpg) no-repeat top right;}
+
+.h-menu{padding: 5px 0;}
+
+.logo img{margin-top: 5px;}	
+
+.call{padding: 5px 20px;}
+
+.call-toggle{top: 38px;}
+
+.h-content p{
+	max-width: 300px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.h-content .button {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+h1{font-size: 38px;}
+
+#about{min-height: 0;}
+
+#about p{line-height: 20px;}
+
+.about-small{display: none;}
+
+.center h4:before{left: 40%;}
+
+.left-group,.right-group,.post__img,.post__cont{width: 100%; float: none;}
+
+.post__img img{margin: auto;}
+
+#journal i[class*="ic-"] {
+    top: 45%;
+    left: 45%;
+ } 
+
+ #journal .post__cont:before{
+    top: -15px;
+    left: 50%;
+    background-position: -63px 0;
+}
+
+.offer_form{
+text-align: center;
+padding: 0 10px;
+height: 120px;
+}
+
+.submit{
+position: relative;
+margin-top: 10px;
+}
+
+.offer_form .input{border: 1px solid #ebebeb;}
+
+.step{margin-top: 35px;}
+
+.step:before {
+    top: 60px;
+    width: 25px;
+}
+
+.step:after{
+	top: 85px;
+    height: 65px;
+}
+
+.descr p{
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.descr img{
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+#travel{min-height: 700px;}
+
+.tour{
+	height: 250px;
+	width: 120px;
+}
+
+.tour h5{
+	margin-top: 90px;
+	font-size: 18px;
+}
+
+.tour p{
+	font-size: 10px;
+	line-height: 18px;
+}
+
+.tour .price{
+	width: 120px;
+	font-size: 18px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 58px;
+}
+
+.tour .price span {
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+#partner{padding: 15px;}
+
+.sign-up{width: 80%;}
+
+.sign-up input{width: 100%;}
+
+.copyright{margin-bottom: 10px;}
+
+.phone{text-align: center;}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+.logo, .call{display: none;}		
+
+h1{font-size: 30px;}
+
+.h-content p {margin-bottom: 20px;}
+
+#about{padding-top: 110px;}
+
+.col-xs-6{width: 100%;}
+
+#journal i[class*="ic-"] {
+    top: 35%;
+    left: 35%;
+}
+
+#offer{padding-top: 40px;}
+
+.offer_form{height: 165px;}
+
+.input{width: 100%;}
+
+.scheme-wrap{line-height: 14px;}
+
+.step{
+	height: 30px;
+	width: 30px;
+	padding: 4px;
+	margin-left: 0;
+	margin-top: 30px;
+}
+
+.step:before {
+    top: 44px;
+    left: 30px;
+    width: 25px;
+}
+
+.step:after{
+    top: 60px;
+    left: 15px;
+    height: 50px;
+}
+
+.descr img {
+    width: 70px;
+    height: 70px;
+}
+
+.descr p{
+	padding: 0;
+	font-size: 10px;
+}
+
+.descr span{font-size: 14px;}
+
+.center{margin-bottom: 10px;}
+
+.center h4 {font-size: 20px;}
+
+.tour .price{margin-top: 50px;}
+
+#partner a{margin-right: 5px;}
+
+#partner a:last-child {margin-right: 0;}
+
+#comments .center {margin-bottom: 50px;}
+
+.comment,.autor{font-size: 14px;}
+
+.sign-up{
+	padding: 10px;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 0;
+}
+
+.sign-up h5{font-size: 25px;}
+
+.sign-up input{height: 45px;}
+
+.sign-up input[type="submit"]{padding: 0;}
+
+}
