@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Владимир Леськив: Портфолио</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="mobile-menu">
+		       <span class="bar"></span>
+		       <span class="bar"></span>
+		       <span class="bar"></span>
+		      </div>
+		<nav class="header-nav">
+			<ul>
+				<li><a href="#about">О себе</a></li>
+				<li><a href="#portfolio">Портфолио</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</ul>
+		</nav>
+	<div class="header-content">
+		<h1>Владимир Леськив</h1>
+		<p>Junior Front-end developer / HTML верстальщик</p>
+	</div>
+	</header>
+
+	<section id="about" class="about">
+		<div class="container">
+			<div class="section-header">
+				<h2>О себе</h2>
+			</div>
+			<div class="about-content">
+				<div class="row">
+					<div class="col-md-4 col-md-push-4 animation_2">
+						<h3>Фото</h3>
+						<img src="img/me.jpg" alt="Владимир Леськив Junior Front-end developer / HTML разработчик">
+					</div>
+					<div class="col-md-4 col-md-pull-4 animation_1">
+						<h3>Навыки</h3>
+						<ul>
+							<li>Уверенные знания HTML5, CSS3</li>
+							<li>JQuery</li>
+							<li>Bootstrap</li>
+							<li>Адаптивная, валидная, кроссбраузерная верстка</li>
+							<li>Работа с CSS препроцессорами и сборщиками проектов (Gulp, Sass)</li>
+						</ul>
+					</div>
+					<div class="col-md-4 animation_3">
+						<h3>Персональные данные</h3>
+						<ul>
+							<li>Возраст: 25 лет</li>
+							<li>Город: Одесса</li>
+							<li>Номер телефона: +38(093)987-25-86</li>
+							<li>E-mail: <a href="mailto:vladimir.leskiv@gmail.com">vladimir.leskiv@gmail.com</a></li>
+						</ul>
+						<div class="social">
+							<a href="https://vk.com/vladimir.leskiv" target="_blank"><i class="fa fa-vk"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100008869001291" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://github.com/vovaleskiv" target="_blank"><i class="fa fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="section-header">
+				<h2>Портфолио</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="portfolio-item">
+						<img src="img/luxury.jpg" alt="Ресторан 'Luxury'">
+						<div class="portfolio-descr">
+							<h3>Сайт ресторана</h3>
+							<a href="/Luxury/" target="_blank" class="btn">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="portfolio-item">
+						<img src="img/mountains.jpg" alt="Турагенство">
+						<div class="portfolio-descr">
+							<h3>Сайт туристической компании</h3>
+							<a href="/Mountains/" target="_blank" class="btn">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="portfolio-item">
+						<img src="img/portfolio.jpg" alt="Портфолио">
+						<div class="portfolio-descr">
+							<h3>Моё портфолио</h3>
+							<a href="#" class="btn">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="section-header">
+				<h2>Контакты</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="contact-block">
+						<i class="fa fa-map"></i>
+						<h3>Адрес:</h3>
+						<p>г. Одесса</p>
+					</div>
+					<div class="contact-block">
+						<i class="fa fa-mobile"></i>
+						<h3>Телефон:</h3>
+						<p>+38(093)987-25-86</p>
+					</div>
+					<div class="contact-block">
+						<i class="fa fa-envelope-o"></i>
+						<h3>E-mail:</h3>
+						<p>vladimir.leskiv@gmail.com</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<form class="contact-form">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Портфолио">
+            <input type="hidden" name="admin_email" value="vladimir.leskiv@gmail.com">
+            <input type="hidden" name="form_subject" value="Контакт">
+            <!-- END Hidden Required Fields -->
+            <label><span>*</span>Ваше имя:</label>
+            <input type="text" name="Name" placeholder="Ваше имя:" required>
+            <label><span>*</span>Ваш e-mail:</label>
+            <input type="email" name="E-mail" placeholder="Ваш e-mail:" required>
+            <label><span>*</span>Ваше сообщение:</label>
+            <textarea name="Message" placeholder="Ваше сообщение" required></textarea>
+            <button class="btn">Отправить</button>
+        </form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					&copy; 2017 Владимир Леськив
+					<div class="social">
+						<a href="https://vk.com/vladimir.leskiv" target="_blank"><i class="fa fa-vk"></i></a>
+						<a href="https://www.facebook.com/profile.php?id=100008869001291" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://github.com/vovaleskiv" target="_blank"><i class="fa fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="topscroll" title="To top screen"><i class="fa fa-angle-double-up"></i></div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
